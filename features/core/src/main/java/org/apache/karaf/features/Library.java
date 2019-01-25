@@ -21,6 +21,7 @@ public interface Library {
     String TYPE_ENDORSED = "endorsed";
     String TYPE_EXTENSION = "extension";
     String TYPE_BOOT = "boot";
+    String TYPE_JDK9PLUS = "jdk9plus";
     String TYPE_DEFAULT = "default";
 
     String getLocation();

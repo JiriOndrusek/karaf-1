@@ -307,6 +307,7 @@ run() {
                     --add-opens java.base/java.util=ALL-UNNAMED \
                     --add-opens java.naming/javax.naming.spi=ALL-UNNAMED \
                     --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED \
+                    --add-opens java.base/sun.net.www.protocol.jrt=ALL-UNNAMED \
                     --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED \
                     --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED \
                     --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED \

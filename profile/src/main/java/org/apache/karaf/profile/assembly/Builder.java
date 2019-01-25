@@ -1449,6 +1449,7 @@ public class Builder {
             case Library.TYPE_ENDORSED:  path = "lib/endorsed"; break;
             case Library.TYPE_EXTENSION: path = "lib/ext"; break;
             case Library.TYPE_BOOT:      path = "lib/boot"; break;
+            case Library.TYPE_JDK9PLUS:  path = "lib/jdk9plus"; break;
             default:                     path = "lib"; break;
             }
             downloader.download(library, provider -> {

@@ -24,7 +24,7 @@
     <parent>
         <artifactId>karaf</artifactId>
         <groupId>org.apache.karaf</groupId>
-        <version>4.2.0.redhat-730-SNAPSHOT</version>
+        <version>4.2.0.fuse-740001</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
